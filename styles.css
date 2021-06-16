@@ -4,7 +4,24 @@ h1 {
   font-size: 20px;
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 p {
   color: slategray;
+  text-align: right;
+  line-height: 30px;
+  letter-spacing: 2px;
+  column-count: 2;
+  column-gap: 60px;
+}
+ul {
+  /* border-width: 4px;
+  border-style: solid;
+  border-color: crimson; */
+  border-bottom: 4px solid crimson;
+}
+ul {
+  list-style-type: none;
+  /* text-shadow: 2px 2px lightgrey; */
+  text-shadow: 2px 2px #e6e6e6;
 }
